@@ -1,7 +1,4 @@
 
-import "@egjs/react-flicking/dist/flicking.css";
-import data from '../../articles.json'
-
 function Home(){
     return ( 
         <>
@@ -24,15 +21,127 @@ function Home(){
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc urna, scelerisque sit amet erat sit amet, efficitur maximus magna.</p>
             </div>
         </div>
-        <div>
-            <p className="text-black">Blog</p>
-            <div>
-                <img src="/Rectangle 115.png" alt="" />
-                <div className="bg-">
 
+
+
+        <div className="flex flex-col">
+
+
+            <p className="text-black text-2xl font-bold p-9">Blog</p>
+
+
+<div className="flex justify-evenly">
+
+            <div className="flex flex-col h-3/12 w-3/12">
+                <img src="/Rectangle 115.png" alt="" />
+
+                <div className="bg-Laranja p-3">
+
+                        <div className="flex items-center justify-between">
+                        <div className="flex items-center">
+                            <img className="h-8 w-8" src="/Ellipse 76.png" alt="" />
+                            <div className="p-2">
+                                <p className="text-sm">Lorem Ipsum</p>
+                                <p className="text-xs">Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <img className="h-8" src="/menu 1.png" alt="" />
+                        </div>
+                        
+                    <div className="mt-2">
+                        <p className="font-bold text-lg">Lorem Ipsum</p>
+                        <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div className="flex flex-col h-3/12 w-3/12">
+                <img src="/Rectangle 115.png" alt="" />
+
+                <div className="bg-Laranja p-3">
+
+                        <div className="flex items-center justify-between">
+                        <div className="flex items-center">
+                            <img className="h-8 w-8" src="/Ellipse 76.png" alt="" />
+                            <div className="p-2">
+                                <p className="text-sm">Lorem Ipsum</p>
+                                <p className="text-xs">Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <img className="h-8" src="/menu 1.png" alt="" />
+                        </div>
+                        
+                    <div className="mt-2">
+                        <p className="font-bold text-lg">Lorem Ipsum</p>
+                        <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div className="flex flex-col h-3/12 w-3/12">
+                <img src="/Rectangle 115.png" alt="" />
+
+                <div className="bg-Laranja p-3">
+
+                        <div className="flex items-center justify-between">
+                        <div className="flex items-center">
+                            <img className="h-8 w-8" src="/Ellipse 76.png" alt="" />
+                            <div className="p-2">
+                                <p className="text-sm">Lorem Ipsum</p>
+                                <p className="text-xs">Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <img className="h-8" src="/menu 1.png" alt="" />
+                        </div>
+                        
+                    <div className="mt-2">
+                        <p className="font-bold text-lg">Lorem Ipsum</p>
+                        <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            </div>
+
+        <div className="flex flex-col mb-20">
+          
+            <p className="text-black text-2xl font-bold p-9">Marketplace</p>
+        
+            <div className="flex justify-evenly ">
+                <div className="h-80 w-80 bg-Cinza content-end">
+                <div className="flex flex-col p-8">
+                <p className="text-black font-bold text-2xl">Lorem</p>
+                <p className="text-black text-lg">Ipsum</p>
+                </div>
+                </div>
+
+                <div className="h-80 w-80 bg-Cinza content-end">
+                <div className="flex flex-col p-8">
+                <p className="text-black font-bold text-2xl">Lorem</p>
+                <p className="text-black text-lg">Ipsum</p>
+                </div>
+                </div>
+
+                <div className="h-80 w-80 bg-Cinza content-end">
+                <div className="flex flex-col p-8">
+                <p className="text-black font-bold text-2xl">Lorem</p>
+                <p className="text-black text-lg">Ipsum</p>
+                </div>
+            
                 </div>
             </div>
         </div>
+        
+        <div className="bg-Verde w-full h-8"></div>
+        <footer></footer>
         </>
     );
   }

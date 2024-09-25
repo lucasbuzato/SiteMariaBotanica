@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Filmes from './pages/Filmes.jsx'
-import Login from './pages/Login.jsx'
-import Favoritos from './pages/Favoritos.jsx'
+import Filmes from './pages/Sobre.jsx'
+import Blog from './pages/Blog.jsx'
+import Contatos from './pages/Contato.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 import Home from './pages/Home.jsx'
+import Marketplace from './pages/Marketplace.jsx'
 import PaginaFilme from './pages/PaginaFilme.jsx'
 
 
@@ -18,11 +19,11 @@ const router = createBrowserRouter(
       element: <App/>,
       children: [
         {index: true, element: <Home/>},
-        {path: "filmes", element: <Filmes/>},
+        {path: "sobre", element: <Filmes/>},
         {path: "filmes/:id", element: <PaginaFilme/>},
-        {path: "favoritos/:id", element: <PaginaFilme/>},
-        {path: "login", element: <Login/>},
-        {path: "favoritos", element: <Favoritos/>},
+        {path: "blog", element: <Blog/>},
+        {path: "contatos", element: <Contatos/>},
+        {path: "marketplace", element: <Marketplace/>},
         {path: "*", element: <PageNotFound/>}
       ]
     }
