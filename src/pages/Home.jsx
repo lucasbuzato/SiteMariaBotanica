@@ -17,11 +17,20 @@ function Home(){
         <div className="flex bg-Cinza justify-around mb-20 text-xl">
             <div className="flex-col text-black w-96 p-8 h-24">
             <p className="text-black mb-5 font-bold">Lorem Ipsum</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc urna, scelerisque sit amet erat sit amet, efficitur maximus magna.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc urna, scelerisque sit amet erat sit amet, efficitur maximus magna.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc urna, scelerisque sit amet erat sit amet, efficitur maximus magna.</p>
             </div>
             <div className="flex flex-col bg-Verde flex w-96 p-8 h-96 relative top-16">
             <p className="mb-5 font-bold">Lorem Ipsum</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nunc urna, scelerisque sit amet erat sit amet, efficitur maximus magna.</p>
+            </div>
+        </div>
+        <div>
+            <p className="text-black">Blog</p>
+            <div>
+                <img src="/Rectangle 115.png" alt="" />
+                <div className="bg-">
+
+                </div>
             </div>
         </div>
         </>
