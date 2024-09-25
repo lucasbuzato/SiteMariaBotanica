@@ -9,7 +9,9 @@ import Contatos from './pages/Contato.jsx'
 import PageNotFound from './pages/PageNotFound.jsx'
 import Home from './pages/Home.jsx'
 import Marketplace from './pages/Marketplace.jsx'
-import PaginaFilme from './pages/PaginaFilme.jsx'
+import Cadastro from './pages/Cadastro.jsx'
+import Login from './pages/Login.jsx'
+import PaginaBlog from './pages/PaginaBlog.jsx'
 
 
 const router = createBrowserRouter(
@@ -20,10 +22,12 @@ const router = createBrowserRouter(
       children: [
         {index: true, element: <Home/>},
         {path: "sobre", element: <Filmes/>},
-        {path: "filmes/:id", element: <PaginaFilme/>},
         {path: "blog", element: <Blog/>},
         {path: "contatos", element: <Contatos/>},
         {path: "marketplace", element: <Marketplace/>},
+        {path: "login", element: <Login/>},
+        {path: "cadastro", element: <Cadastro/>},
+        {path: "paginablog", element: <PaginaBlog/>},
         {path: "*", element: <PageNotFound/>}
       ]
     }

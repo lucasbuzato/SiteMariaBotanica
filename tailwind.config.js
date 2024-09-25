@@ -12,11 +12,11 @@ export default {
       'Laranja':'#DC9100'
       
     },
+    backgroundImage: {
+      'login-img':"url('/image 24.png')"
+    },
     fontFamily: {
       customFont: ['"Quicksand"', "sans-serif"],
-    },
-    backgroundImage: {
-      'footer-texture': "url('/src/componentes/Images/pexels-donaldtong94-109669.jpg')",
     },
 
   },

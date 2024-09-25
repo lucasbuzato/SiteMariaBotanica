@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 export default function Blog() {
 
 
@@ -25,6 +26,8 @@ export default function Blog() {
             <div className="flex flex-col h-4/12 w-4/12 m-12">
                 <img src="/Rectangle 116.png" alt="" />
 
+                <a className="block"   href="">
+                    <Link to ="/paginablog">
                 <div className="bg-Laranja p-3">
 
                         <div className="flex items-center justify-between">
@@ -43,10 +46,15 @@ export default function Blog() {
                         <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
                     </div>
                 </div>
+                </Link>
+                </a>
             </div>
+            
             <div className="flex flex-col h-4/12 w-4/12 m-12">
                 <img src="/Rectangle 116.png" alt="" />
 
+                <a className="block"   href="">
+                    <Link to ="/paginablog">
                 <div className="bg-Laranja p-3">
 
                         <div className="flex items-center justify-between">
@@ -65,6 +73,8 @@ export default function Blog() {
                         <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
                     </div>
                 </div>
+                </Link>
+                </a>
             </div>
             </div>
 
@@ -82,6 +92,8 @@ export default function Blog() {
             <div className="flex flex-col h-4/12 w-4/12 m-12">
                 <img src="/Rectangle 116.png" alt="" />
 
+                <a className="block"   href="">
+                    <Link to ="/paginablog">
                 <div className="bg-Laranja p-3">
 
                         <div className="flex items-center justify-between">
@@ -100,10 +112,14 @@ export default function Blog() {
                         <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
                     </div>
                 </div>
+                </Link>
+                </a>
             </div>
             <div className="flex flex-col h-4/12 w-4/12 m-12">
                 <img src="/Rectangle 116.png" alt="" />
 
+                <a className="block"   href="">
+                    <Link to ="/paginablog">
                 <div className="bg-Laranja p-3">
 
                         <div className="flex items-center justify-between">
@@ -122,6 +138,8 @@ export default function Blog() {
                         <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
                     </div>
                 </div>
+                </Link>
+                </a>
             </div>
             </div>
 
@@ -136,6 +154,8 @@ export default function Blog() {
             <div className="flex flex-col h-4/12 w-4/12 m-12">
                 <img src="/Rectangle 116.png" alt="" />
 
+                <a className="block"   href="">
+                    <Link to ="/paginablog">
                 <div className="bg-Laranja p-3">
 
                         <div className="flex items-center justify-between">
@@ -154,10 +174,14 @@ export default function Blog() {
                         <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
                     </div>
                 </div>
+                </Link>
+                </a>
             </div>
             <div className="flex flex-col h-4/12 w-4/12 m-12">
                 <img src="/Rectangle 116.png" alt="" />
 
+                <a className="block"   href="">
+                    <Link to ="/paginablog">
                 <div className="bg-Laranja p-3">
 
                         <div className="flex items-center justify-between">
@@ -176,6 +200,8 @@ export default function Blog() {
                         <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing el</p>
                     </div>
                 </div>
+                </Link>
+                </a>
             </div>
             </div>
             </div>
