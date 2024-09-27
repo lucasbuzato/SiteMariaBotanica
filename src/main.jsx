@@ -12,6 +12,7 @@ import Marketplace from './pages/Marketplace.jsx'
 import Cadastro from './pages/Cadastro.jsx'
 import Login from './pages/Login.jsx'
 import PaginaBlog from './pages/PaginaBlog.jsx'
+import PaginaMarket from './pages/PaginaMarket.jsx'
 
 
 const router = createBrowserRouter(
@@ -28,6 +29,7 @@ const router = createBrowserRouter(
         {path: "login", element: <Login/>},
         {path: "cadastro", element: <Cadastro/>},
         {path: "paginablog", element: <PaginaBlog/>},
+        {path: "paginamarket", element: <PaginaMarket/>},
         {path: "*", element: <PageNotFound/>}
       ]
     }

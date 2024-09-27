@@ -127,6 +127,9 @@ function Home(){
             <p className="text-black text-2xl font-bold p-9">Marketplace</p>
         
             <div className="flex justify-evenly ">
+
+        <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="sementes.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -135,6 +138,11 @@ function Home(){
                 <p className="text-black">R$ 35</p>
                 </div>
                 </div>
+                </Link>
+                </a>
+
+                <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="mudas.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -143,7 +151,10 @@ function Home(){
                 <p className="text-white">R$ 20</p>
                 </div>
                 </div>
-
+                </Link>
+                </a>
+                <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="canela.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -152,6 +163,8 @@ function Home(){
                 <p className="text-white">R$ 15</p>
                 </div>
                 </div>
+                </Link>
+                </a>
             </div>
         </div>
         

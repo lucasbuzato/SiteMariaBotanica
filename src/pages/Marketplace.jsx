@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom'
 export default function Marketplace() {
 
     return ( 
@@ -20,6 +20,9 @@ export default function Marketplace() {
         </div>
         <p className="text-black text-2xl font-bold p-9 mt-20">Mais Comprados</p>
         <div className="flex justify-evenly ">
+
+        <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="sementes.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -28,6 +31,11 @@ export default function Marketplace() {
                 <p className="text-black">R$ 35</p>
                 </div>
                 </div>
+                </Link>
+                </a>
+
+                <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="mudas.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -36,7 +44,10 @@ export default function Marketplace() {
                 <p className="text-white">R$ 20</p>
                 </div>
                 </div>
-
+                </Link>
+                </a>
+                <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="canela.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -45,9 +56,14 @@ export default function Marketplace() {
                 <p className="text-white">R$ 15</p>
                 </div>
                 </div>
+                </Link>
+                </a>
             </div>
             <p className="text-black text-2xl font-bold p-9">Legumes</p>
         <div className="flex justify-evenly ">
+
+        <a className="block"   href="">
+                    <Link to ="/paginamarket">
         <div>
                 <img src="cebola.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -56,6 +72,10 @@ export default function Marketplace() {
                 <p className="text-white">R$ 15</p>
                 </div>
                 </div>
+                </Link>
+                </a>
+                <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="cenoura.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -64,6 +84,12 @@ export default function Marketplace() {
                 <p className="text-white">R$ 10</p>
                 </div>
                 </div>
+                </Link>
+                </a>
+
+
+                <a className="block"   href="">
+                    <Link to ="/paginamarket">
                 <div>
                 <img src="pimentao.png" className="flex flex-col p-8 h-96 w-96 ">
                 </img>
@@ -72,7 +98,13 @@ export default function Marketplace() {
                 <p className="text-white">R$ 15</p>
                 </div>
                 </div>
+                </Link>
+                </a>
             </div>
+
+
+
+
             <div className="bg-Verde w-full h-8 "></div>
         </>
 
