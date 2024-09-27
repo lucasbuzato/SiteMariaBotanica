@@ -1,8 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Nome do Projeto:SiteMariaBotanica
+Descrição: É um site com sistema de registro e um marketplace aliado a um sistema de assinaturas que propõem uma maior facilidade na entrega de produtos orgânicos de alta qualidade.
+Tecnologias utilizadas: React, Moongose e Tailwind
+Como rodar o projeto:Clone a pasta do Site e entre no Visual Studio Code, Após isso, Use o Código "npm i" para baixar as dependencias. E para Finalizar, Use o Código "npm run dev" para rodar o site.
+Integrantes do grupo: Lucas Buzato; Davi Rocha; Yann Fidelis; Vittorio Hung; Tomás Marques
