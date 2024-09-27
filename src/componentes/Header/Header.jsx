@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 function Header() {
     return ( 
         <div className="font-bold bg-white">
-            <div className="flex justify-evenly">
+            <div className="flex justify-between">
             <img className="w-52 h-48" src="/LOGO MARIA BOTANICA.png" alt="" />
             <div className="flex items-center">
             <div className="mt-5 flex justify-end">

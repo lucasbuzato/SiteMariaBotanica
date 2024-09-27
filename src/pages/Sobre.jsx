@@ -10,9 +10,8 @@ export default function Sobre() {
                     <p className="font-bold mb-5 text-xl">
                     Sobre
                     </p>
-                    <p className="text-lg ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra, nisi nec posuere bibendum, lectus elit vehicula leo, eget tincidunt augue enim eget erat. Phasellus vitae dignissim arcu, in suscipit risus. Proin eu aliquet nisi. Vestibulum ullamcorper posuere sem, sed vestibulum massa maximus eu. Nullam mattis tortor ut nisi pretium, ut congue orci faucibus. In quis velit suscipit mi imperdiet dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam semper nulla sit amet ornare 
-                    <br />condimentum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pharetra, nisi nec posuere bibendum, lectus elit vehicula leo, eget tincidunt augue enim eget erat. Phasellus vitae dignissim arcu, in suscipit risus. Proin eu aliquet nisi.
+                    <p className="text-lg text-center ">
+                    Empresa fundada em 2024 para o trabalho de conclusão de curso da FIAP school, temos como objetivo ajudar as pessoas a serem mais autosuficientes com nossos produtos naturais e de qualidade, isso adicionando sempre inovações e novas tecnologias para a nossa area de trabalho.
                     </p>
                 </div>
             </div>
