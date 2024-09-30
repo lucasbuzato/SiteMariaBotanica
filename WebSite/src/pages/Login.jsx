@@ -1,5 +1,24 @@
-import {Link} from 'react-router-dom'
+import { useState } from "react"
+import {Link, useNavigate} from 'react-router-dom'
+import axios from 'axios'
+
 export default function Login() {
+
+    const [email, setEmail] = useState();
+    const [password, setPassword] = useState();
+    const navigate = useNavigate()
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        axios.post('http://localhost:3000/cadastro', {name,email,password})
+        .then(result => {
+            console.log(result)
+            if(result.data){
+                navigate('/')
+            }
+        })
+        .catch(err => console.log(err))
+    }
 
     return ( 
         <>
@@ -7,17 +26,16 @@ export default function Login() {
            <div className="bg-Verde flex flex-col items-center w-7/12 h-72 justify-center">
             <p className="text-2xl font-bold">Login</p>
             <div>
-                <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="*Email" type="text" />
-                <div>
-                <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="*Senha" type="text" />
-                
-                </div>
-                <a href="" ><Link to ="/cadastro">*Criar uma conta</Link></a>
+                <form onSubmit={handleSubmit}>
+                    <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="Email" type="email" onChange={(e) => setEmail(e.target.value)}/>
+                    <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="Senha" type="password" onChange={(e) => setPassword(e.target.value)}/>
+                    <a href="" ><Link to ="/cadastro">*Criar uma conta</Link></a>
+                    <button className="bg-Laranja w-16 p-2 m-2">Login</button>
+                </form>           
             </div>
           
-            <button className="bg-Laranja w-16 p-2 m-2"><Link to ="/marketplace">Entrar</Link></button>
-  
-           </div>
+
+            </div>
            </div>
         </>
 
