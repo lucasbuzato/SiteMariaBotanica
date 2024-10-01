@@ -23,11 +23,11 @@ export default function Cadastro() {
            <div className="bg-Verde flex flex-col items-center w-8/12 h-96 justify-center">
             <p className="text-2xl font-bold">Cadastrar-se</p>
             <div className='flex flex-col'>
-                <form onSubmit={handleSubmit}>
+                <form className="flex flex-col " onSubmit={handleSubmit}>
                     <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="Nome" type="text" onChange={(e) => setName(e.target.value)}/>
                     <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="Email" type="email" onChange={(e) => setEmail(e.target.value)}/>
                     <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="Senha" type="password" onChange={(e) => setPassword(e.target.value)}/>
-                    <button className="bg-Laranja w-16 p-2 m-2" type="submit">Register</button>
+                    <button className="bg-Laranja w-24 p-2 m-2" type="submit">Cadastrar</button>
                 </form>
             </div>
   

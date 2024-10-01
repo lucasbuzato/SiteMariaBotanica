@@ -26,7 +26,7 @@ export default function Login() {
            <div className="bg-Verde flex flex-col items-center w-7/12 h-72 justify-center">
             <p className="text-2xl font-bold">Login</p>
             <div>
-                <form onSubmit={handleSubmit}>
+                <form className="flex flex-col " onSubmit={handleSubmit}>
                     <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="Email" type="email" onChange={(e) => setEmail(e.target.value)}/>
                     <input className="bg-Cinza w-96 h-10 m-2 placeholder:pl-2" placeholder="Senha" type="password" onChange={(e) => setPassword(e.target.value)}/>
                     <a href="" ><Link to ="/cadastro">*Criar uma conta</Link></a>
